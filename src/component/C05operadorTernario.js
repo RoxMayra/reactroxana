@@ -1,6 +1,7 @@
-import React, { Fragment} from 'react'
+import React, {Fragment} from 'react'
 
-const Operador = () => {
+const C05operadorTernario = () => {
+
     const edad = 18;
     return (
         <Fragment>
@@ -8,7 +9,7 @@ const Operador = () => {
             {edad >= 18? 'Mayor de edad' : 'Menor de edad'}
         </Fragment>
    
-  )
+  );
 }
 
-export default Operador;
+export default C05operadorTernario;
