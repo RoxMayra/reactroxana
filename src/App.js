@@ -7,6 +7,7 @@ import C04variable from './component/C04variable';
 import C05operadorTernario from './component/C05operadorTernario';
 import C06matriz from './component/C06matriz';
 
+
 function App() {
   return (
     <div>
@@ -27,6 +28,9 @@ function App() {
       
       <h1>Componentes 6</h1>
       <C06matriz></C06matriz>
+
+      <h1>Componentes 7</h1>
+      <C07matrizOperaciones></C07matrizOperaciones>
     </div>
     
   );
