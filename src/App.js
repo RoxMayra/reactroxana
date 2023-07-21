@@ -6,6 +6,7 @@ import C03contador2 from './component/C03contador2';
 import C04variable from './component/C04variable';
 import C05operadorTernario from './component/C05operadorTernario';
 import C06matriz from './component/C06matriz';
+import C07matrizOperaciones from './component/C07matrizOperaciones';
 
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
 
       <h1>Componentes 7</h1>
       <C07matrizOperaciones></C07matrizOperaciones>
+      
     </div>
     
   );
