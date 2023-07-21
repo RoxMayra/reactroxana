@@ -1,8 +1,8 @@
-import React, { useState, Fragment } from 'react'
+import React, { useState, Fragment} from 'react'
 
 const C06matriz = () => {
 
-    const [lista, Setlista] = useState([1,2,3,4,5]);
+    const [lista, setlista] = useState([1,2,3,4,5]);
     return (
         <Fragment>
             <h1>Lectura sin index y sin html</h1>
